@@ -1,0 +1,460 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+ body {
+
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+
+.top-wrapper {
+  padding: 190px 0 100px 0;
+  background-color: #023337;
+  background-size: cover;
+  color: white;
+  text-align: left;
+  padding-bottom: 80px;
+  margin-bottom: 165px;
+
+}
+
+.top-icon {
+  color: #023436;
+  float: left;
+  z-index: 1;
+
+}
+
+.top-wrapper h1 {
+  opacity: 2;
+  font-size: 35px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  text-align: left;
+  color: white;
+  font-weight: 600;
+  
+}
+
+
+.top-wrapper p {
+  opacity: 2;
+  margin-bottom: 3px;
+  text-align: left;
+  color: white;
+  font-weight: 200;
+  
+}
+
+.top-wrapper img {
+  float: right;
+  size: 256px;
+}
+
+.btn-wrapper {
+  text-align: left;
+  margin: 20px 0;
+  
+}
+
+.signup {
+  background-color: white;
+  border-radius: 20px;
+  border: 0.8px solid #377578;
+}
+
+.signup:hover {
+  background-color: #377578;
+  border: 0.8px solid #377578;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  color: #377578;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 20px;
+  text-align: left;
+  box-shadow: 5px white;
+}
+
+.btn:hover {
+  opacity: 1;
+  color: white;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: white;
+  position :fixed;
+  top: 0;
+  opacity: 1;
+  z-index: 10;
+  box-shadow: 0 4px 10px grey;
+}
+
+.header-left {
+  float: left;
+  padding-top: 20px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  border-radius: 30px;
+  padding: 10px 15px;
+  font-size: 14px;
+  margin-left: 11px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  color: #023337;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.header-right a:hover {
+  background-color: #023337;
+  color: white;
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: #023337;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.icontop-wrapper {
+  text-align: right;
+  padding-bottom: 80px;
+  z-index: 1;
+}
+
+.product-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+  text-align: center;
+  margin-top: 128px;
+}
+
+.heading {
+  padding-top: 15px;
+  padding-bottom: 50px;
+  font-weight: bold;
+}
+
+.heading h2 {
+  font-weight: bold;
+  color: #377578;
+  font-size: 45px;
+}
+
+.product {
+  float: left;
+  width: 25%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.bala-icon {
+  position: relative;
+  padding-bottom: 10px;
+  background-color: white;
+  border: 2px solid #023337;
+  border-radius: 20px;
+  padding-bottom: 80px;
+  padding-top: 10px;
+  box-shadow: 0 4px 10px #377578;
+
+}
+
+.rala-icon {
+  position: relative;
+  padding-bottom: 10px;
+  background-color: white;
+  border: 2px solid #023337;
+  border-radius: 20px;
+  padding-bottom: 80px;
+  padding-top: 10px;
+  box-shadow: 0 4px 10px #377578;
+}
+
+.chatbot-icon {
+  position: relative;
+  padding-bottom: 10px;
+  background-color: white;
+  border: 2px solid #023337;
+  border-radius: 20px;
+  padding-bottom: 80px;
+  padding-top: 10px;
+  box-shadow: 0 4px 10px #377578;
+}
+
+.alitic-icon {
+  position: relative;
+  padding-bottom: 10px;
+  background-color: white;
+  border: 2px solid #023337;
+  border-radius: 20px;
+  padding-bottom: 80px;
+  padding-top: 10px;
+  box-shadow: 0 4px 10px #377578;
+}
+
+.bala {
+  background-color: white;
+  border: 1px solid #377578;
+  border-radius: 30px;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin-left: 11px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    margin-top: 10px;
+  
+}
+
+.bala:hover {
+  background-color: #377578;
+  border: 1px solid #377578;
+}
+
+.rala {
+  background-color: white;
+  border: 1px solid #377578;
+  border-radius: 30px;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin-left: 11px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.rala:hover {
+  background-color: #377578;
+  border: 1px solid #377578;
+}
+
+.alitic {
+  background-color: white;
+  border: 1px solid #377578;
+  border-radius: 30px;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin-left: 11px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.alitic:hover {
+  background-color: #377578;
+  border: 1px solid #377578;
+}
+
+.chatbot {
+  background-color: white;
+  border: 1px solid #377578;
+  border-radius: 30px;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin-left: 11px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.chatbot:hover {
+  background-color: #377578;
+  border: 1px solid #377578;
+}
+
+
+.product-icon p {
+  position: relative;
+  top: 44%;
+  width: 100%;
+  font-size: 20px;
+  color: #023337;
+  padding: 8px;
+  font-weight: normal
+
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 15px;
+  color: #023337;
+}
+
+.lesson-wrapper {
+  padding-top: 64px;
+  text-align: left;
+  padding-bottom: 38px;
+  background-color: white;
+  margin-bottom: 256px;
+  margin-top: 390px;
+  margin-left: 64px;
+  margin-right: 64px;
+  border: 3px solid #377578;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px grey;;
+  
+}
+
+.title-lesson {
+  float: right;
+  margin-bottom: 10px;
+}
+
+.lesson-wrapper h2 {
+  opacity: 2;
+  font-size: 35px;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #377578;
+}
+
+.lesson-wrapper p {
+  color: #377578;
+}
+.lesson {
+  background-color: #377578;
+  color: white;
+  border-radius: 20px;
+  border: 0.8px solid #377578;
+  float: left;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.lesson:hover {
+  opacity: 2px;
+  background-color: #377578;
+  border: 0.8px solid #377578;
+  color: white;
+  font-weight: bold;
+}
+
+
+.heading-msg h3 {
+  padding-top: 3px;
+  padding-bottom: 25px;
+  font-weight: normal;
+  color:#023436
+  ;
+}
+
+.heading-msg h2 {
+  padding-top: 10px;
+  margin: 0px;
+  font-weight: normal;
+  color: #023436;
+}
+
+.message-wrapper {
+  padding-bottom: 80px;
+  padding-top: 128px;
+  text-align: center;
+  background-color: rgba(235, 226, 226, 0.568);
+  margin-top: 256px;
+}
+
+.msgb {
+  padding: 15px 40px;
+  background-color: #377578;
+  cursor: pointer;
+  box-shadow: 0 7px #023337;
+  color: white;
+  border-radius: 14px;
+}
+
+.msgb:active {
+  position: relative;
+  top: 7px;
+  color: white;
+  box-shadow: none;
+  border-radius: 14px;
+}
+
+
+.footer-left p {
+  color: white;
+}
+
+.footer-left {
+  float: left;
+  margin-top: 25px;
+}
+
+.footer-right a {
+  color: white;
+  float: right;
+  padding-top: 25px;
+  margin-right: 25px;
+
+}
+
+footer{
+  background-color: rgb(66, 66, 66);
+  clear: both;
+  position: relative;
+  height: 100px;
+
+  
+
+}
